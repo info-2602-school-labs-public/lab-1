@@ -20,26 +20,26 @@ Follow these steps to set up the lab environment and run the development server:
 
 6–10. **Run the following commands in order:**
 
+6. **Create a virtual environment**
 ```bash
-# 6. Create a virtual environment
 python -m venv venv
-
-# 7. Activate the virtual environment
+```
+7. **Activate the virtual environment**
 # Windows
-venv\Scripts\activate
+```venv\Scripts\activate```
 # Mac/Linux
-source venv/bin/activate
+```source venv/bin/activate```
 
-# 8. Install dependencies
-pip install -e ".[dev]"
+8. **Install dependencies**
+```pip install -e ".[dev]"```
 
-# 9. Start the development server
-fastapi dev
+9. **Start the development server**
+```fastapi dev```
 # If the default port is in use, run on another port:
-fastapi dev --port 9090
+```fastapi dev --port 9090```
 
-# 10. Open the application in your browser
+10. **Open the application in your browser**
 # Click the link shown in the terminal; you should see "Hello World"
 # If using a custom port:
-http://localhost:9090
+```http://localhost:9090```
 
